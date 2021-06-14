@@ -1,13 +1,18 @@
+import React from "react";
 import PlayerScreen from "./screens/PlayerScreen";
-import { CssBaseline } from "@material-ui/core";
+import {
+  Container,
+} from "@material-ui/core";
 import "./App.css";
+import "@fontsource/roboto";
 
 function App() {
   return (
-    <>
-      <CssBaseline />
-      <PlayerScreen />
-    </>
+    <Container maxWidth="md">
+      <div className="App App-header">
+        <PlayerScreen />
+      </div>
+    </Container>
   );
 }
 
