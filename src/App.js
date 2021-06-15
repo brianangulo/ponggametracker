@@ -1,5 +1,6 @@
 import React from "react";
 import PlayerScreen from "./screens/PlayerScreen";
+import WinnersInputScreen from "./screens/WinnersInputScreen";
 import {
   Container,
 } from "@material-ui/core";
@@ -10,7 +11,8 @@ function App() {
   return (
     <Container maxWidth="md">
       <div className="App App-header">
-        <PlayerScreen />
+        {/* <PlayerScreen /> */}
+        <WinnersInputScreen />
       </div>
     </Container>
   );
