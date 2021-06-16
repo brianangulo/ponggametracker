@@ -26,7 +26,7 @@ function PlayerTrackerComponent() {
       </Grid>
       <Grid container className={classes.margin} spacing={10} justify="center">
         <Grid item>
-          <Typography>Wins</Typography>
+          <Typography>Tony's Wins</Typography>
         </Grid>
         <Grid item>
           <Typography variant="h4">7</Typography>
@@ -46,7 +46,7 @@ function PlayerTrackerComponent() {
           justify="center"
         >
           <Grid item>
-            <Typography>Wins</Typography>
+            <Typography>Captain's Wins</Typography>
           </Grid>
           <Grid item>
             <Typography variant="h4">7</Typography>
