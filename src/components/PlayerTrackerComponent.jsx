@@ -13,6 +13,11 @@ function PlayerTrackerComponent() {
     <>
       <Grid container className={classes.margin} spacing={10} justify="center">
         <Grid item>
+          <Typography variant="h2">Winners</Typography>
+        </Grid>
+      </Grid>
+      <Grid container className={classes.margin} spacing={10} justify="center">
+        <Grid item>
           <Typography variant="h4">Tony Stark</Typography>
         </Grid>
         <Grid item>
@@ -34,7 +39,12 @@ function PlayerTrackerComponent() {
         <Grid item>
           <Button variant="contained">Add Win</Button>
         </Grid>
-        <Grid container className={classes.margin} spacing={10} justify="center">
+        <Grid
+          container
+          className={classes.margin}
+          spacing={10}
+          justify="center"
+        >
           <Grid item>
             <Typography>Wins</Typography>
           </Grid>
