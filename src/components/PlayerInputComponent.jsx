@@ -8,6 +8,7 @@ import {
   colors,
   ThemeProvider,
 } from "@material-ui/core";
+import { Link } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
   margin: {
@@ -45,15 +46,17 @@ function PlayerInputComponent() {
           label="Player 2"
           variant="outlined"
         />
-        <Button
-          className={classes.margin}
-          style={{ marginTop: 20 }}
-          variant="contained"
-          color="primary"
-          onClick={() => console.log("continue pressed")}
-        >
-          Continue
-        </Button>
+        <Link to="/winning">
+          <Button
+            className={classes.margin}
+            style={{ marginTop: 20 }}
+            variant="contained"
+            color="primary"
+            onClick={() => console.log("continue pressed")}
+          >
+            Continue
+          </Button>
+        </Link>
       </ThemeProvider>
     </>
   );
